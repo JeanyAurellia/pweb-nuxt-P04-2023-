@@ -75,19 +75,6 @@
             </div>
           </div>
 
-          <div class="row text-start pt-5 border-top">
-            <div class="col-md-12">
-              <div class="custom-pagination">
-                <span>1</span>
-                <RouterLink to="#">2</RouterLink>
-                <RouterLink to="#">3</RouterLink>
-                <RouterLink to="#">4</RouterLink>
-                <span>...</span>
-                <RouterLink to="#">15</RouterLink>
-              </div>
-            </div>
-          </div>
-
         </div>
 
         <div class="col-lg-4 sidebar">
@@ -98,48 +85,6 @@
               <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
             </form>
           </div>
-          <!-- END sidebar-box -->
-          <div class="sidebar-box">
-            <h3 class="heading">Popular Posts</h3>
-            <div class="post-entry-sidebar">
-              <ul>
-                <li>
-                  <RouterLink to="">
-                    <img src="~/assets/images/img_1_sq.jpg" alt="Image placeholder" class="me-4 rounded">
-                    <div class="text">
-                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                      <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
-                      </div>
-                    </div>
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink to="">
-                    <img src="~/assets/images/img_2_sq.jpg" alt="Image placeholder" class="me-4 rounded">
-                    <div class="text">
-                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                      <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
-                      </div>
-                    </div>
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink to="">
-                    <img src="~/assets/images/img_3_sq.jpg" alt="Image placeholder" class="me-4 rounded">
-                    <div class="text">
-                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                      <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
-                      </div>
-                    </div>
-                  </RouterLink>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- END sidebar-box -->
 
           <div class="sidebar-box">
             <h3 class="heading">Categories</h3>
