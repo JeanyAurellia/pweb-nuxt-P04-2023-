@@ -1,6 +1,5 @@
 <template>
   <div>
-<<<<<<< HEAD
     <div
       v-for="data in datas.docs"
       :key="data.id"
@@ -34,146 +33,12 @@
             </div>
             <span class="text-xs">3 min read</span>
           </div>
-=======
-  <div class="hero overlay inner-page bg-primary py-5">
-    <div class="container">
-      <div class="row align-items-center justify-content-center text-center pt-5">
-        <div class="col-lg-6">
-          <h1 class="heading text-white mb-3" data-aos="fade-up">Blog</h1>
->>>>>>> 7dbf6733358f75192c5cad2d04d819ec9f5d0338
         </div>
       </div>
     </div>
   </div>
-<<<<<<< HEAD
 </template>
 
 <script setup>
 const datas = await $fetch('http://localhost:8000/api/Blog');
 </script>
-=======
-
-  <div class="section search-result-wrap">
-    <div class="container">
-      
-      <div class="row posts-entry">
-        <div class="col-lg-8">
-          <div class="blog-entry d-flex blog-entry-search-item">
-            <RouterLink to="/single" class="img-link me-4">
-              <img src="~/assets/images/img_1_sq.jpg" alt="Image" class="img-fluid">
-            </RouterLink>
-            <div>
-              <span class="date">Apr. 14th, 2022 &bullet; <RouterLink to="#">Business</RouterLink></span>
-              <h2><RouterLink to="">Thought you loved Python? Wait until you meet Rust</RouterLink></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nobis ea quis inventore vel voluptas.</p>
-              <p><RouterLink to="/single" class="btn btn-sm btn-outline-primary">Read More</RouterLink></p>
-            </div>
-          </div>
-
-          <div class="blog-entry d-flex blog-entry-search-item">
-            <RouterLink to="/single" class="img-link me-4">
-              <img src="~/assets/images/img_2_sq.jpg" alt="Image" class="img-fluid">
-            </RouterLink>
-            <div>
-              <span class="date">Apr. 14th, 2022 &bullet; <RouterLink to="#">Business</RouterLink></span>
-              <h2><RouterLink to="/single">Thought you loved Python? Wait until you meet Rust</RouterLink></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nobis ea quis inventore vel voluptas.</p>
-              <p><RouterLink to="/single" class="btn btn-sm btn-outline-primary">Read More</RouterLink></p>
-            </div>
-          </div>
-
-          <div class="blog-entry d-flex blog-entry-search-item">
-            <RouterLink to="/single" class="img-link me-4">
-              <img src="~/assets/images/img_3_sq.jpg" alt="Image" class="img-fluid">
-            </RouterLink>
-            <div>
-              <span class="date">Apr. 14th, 2022 &bullet; <RouterLink to="#">Business</RouterLink></span>
-              <h2><RouterLink to="/single">Thought you loved Python? Wait until you meet Rust</RouterLink></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nobis ea quis inventore vel voluptas.</p>
-              <p><RouterLink to="/single" class="btn btn-sm btn-outline-primary">Read More</RouterLink></p>
-            </div>
-          </div>
-
-          <div class="blog-entry d-flex blog-entry-search-item">
-            <RouterLink to="/single" class="img-link me-4">
-              <img src="~/assets/images/img_4_sq.jpg" alt="Image" class="img-fluid">
-            </RouterLink>
-            <div>
-              <span class="date">Apr. 14th, 2022 &bullet; <RouterLink to="#">Business</RouterLink></span>
-              <h2><RouterLink to="/single">Thought you loved Python? Wait until you meet Rust</RouterLink></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nobis ea quis inventore vel voluptas.</p>
-              <p><RouterLink to="/single" class="btn btn-sm btn-outline-primary">Read More</RouterLink></p>
-            </div>
-          </div>
-
-          <div class="blog-entry d-flex blog-entry-search-item">
-            <RouterLink to="/single" class="img-link me-4">
-              <img src="~/assets/images/img_5_sq.jpg" alt="Image" class="img-fluid">
-            </RouterLink>
-            <div>
-              <span class="date">Apr. 14th, 2022 &bullet; <RouterLink to="#">Business</RouterLink></span>
-              <h2><RouterLink to="/single">Thought you loved Python? Wait until you meet Rust</RouterLink></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nobis ea quis inventore vel voluptas.</p>
-              <p><RouterLink to="/single" class="btn btn-sm btn-outline-primary">Read More</RouterLink></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-4 sidebar">
-
-          <div class="sidebar-box search-form-wrap mb-4">
-            <form action="#" class="sidebar-search-form">
-              <span class="bi-search"></span>
-              <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
-            </form>
-          </div>
-
-          <div class="sidebar-box">
-            <h3 class="heading">Categories</h3>
-            <ul class="categories">
-              <li><RouterLink to="#">Food <span>(12)</span></RouterLink></li>
-              <li><RouterLink to="#">Travel <span>(22)</span></RouterLink></li>
-              <li><RouterLink to="#">Lifestyle <span>(37)</span></RouterLink></li>
-              <li><RouterLink to="#">Business <span>(42)</span></RouterLink></li>
-              <li><RouterLink to="#">Adventure <span>(14)</span></RouterLink></li>
-            </ul>
-          </div>
-          <!-- END sidebar-box -->
-
-          <div class="sidebar-box">
-            <h3 class="heading">Tags</h3>
-            <ul class="tags">
-              <li><RouterLink to="#">Travel</RouterLink></li>
-              <li><RouterLink to="#">Adventure</RouterLink></li>
-              <li><RouterLink to="#">Food</RouterLink></li>
-              <li><RouterLink to="#">Lifestyle</RouterLink></li>
-              <li><RouterLink to="#">Business</RouterLink></li>
-              <li><RouterLink to="#">Freelancing</RouterLink></li>
-              <li><RouterLink to="#">Travel</RouterLink></li>
-              <li><RouterLink to="#">Adventure</RouterLink></li>
-              <li><RouterLink to="#">Food</RouterLink></li>
-              <li><RouterLink to="#">Lifestyle</RouterLink></li>
-              <li><RouterLink to="#">Business</RouterLink></li>
-              <li><RouterLink to="#">Freelancing</RouterLink></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </div>
-</template>
-
-<script lang="ts" setup>
-// import { SingleBlog } from '~/components/single-blog.vue';
-import { RouterLink } from 'vue-router';
-
-
-</script>
-<style>
-
-</style>
->>>>>>> 7dbf6733358f75192c5cad2d04d819ec9f5d0338
